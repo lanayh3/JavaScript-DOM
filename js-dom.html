@@ -1,21 +1,18 @@
 <!DOCTYPE html>
 <html>
 <body>
-    <p1 id="" value=""></p1>
-    <p2 id="" value=""></p2>
-    <script>
-        document.write("<p1> Developers for life!</p1>");
-    </script><br>
-    <script>
-        document.write("<p2> We are coders!</p2>");
-    </script><br>
-    <img id="myImg" src="coding-is-fun.jpg" alt="Coding is fun!" width="250" height="250"> 
-    <script>    
-    function myFunction() {
-      var x = document.getElementById("myImg").src;
-      document.getElementById("demo").innerHTML = x;
-    }
-    </script>
+    <p1 id="myp1" value="para1"></p1>
+    <p2 id="myp2" value="para2"></p2>
+    <p id="myp3"></p>
+    
+    <button type="button" onclick="myDevelopers()">Developer</button>
+    <button type="button" onclick="myCoders()">Coder</button>
+    <button type="button" onclick="myColor()">Set text color</button>
+    <button type="button" onclick="myImage()">Image</button>
+    <button type="button" onclick="mySize()">Change Size</button>
+    <button type="button" onclick="myH()">Hide</button>
 
+        
+<script src="script.js"></script>
 </body> 
 </html>
